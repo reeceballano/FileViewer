@@ -24,7 +24,7 @@ foreach($files as $list) {
 	
 	$fname = explode(' ',$list);
 	$file = $filereader->fileOpen($folder . $fname[0]);
-	echo $list . '</a>' . " => " . $fileex . '<br>';
+	echo $list . " => " . $fileex . '<br>';
 	echo '<textarea>' . $file . '</textarea>' . '<hr>';
 }
 
